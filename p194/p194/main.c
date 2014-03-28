@@ -1,6 +1,6 @@
 //
 //  main.c
-//  p194-1
+//  p194
 //
 //  Created by Yuto Horiuchi on 2014/03/29.
 //  Copyright (c) 2014年 Yuto Horiuchi. All rights reserved.

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE4FDD6718E6108400379523 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CE4FDD6618E6108400379523 /* main.c */; };
-		CE4FDD6918E6108400379523 /* p181.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE4FDD6818E6108400379523 /* p181.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +17,14 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				CE4FDD6918E6108400379523 /* p181.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE4FDD6318E6108400379523 /* p181 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = p181; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4FDD6618E6108400379523 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		CE4FDD6818E6108400379523 /* p181.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = p181.1; sourceTree = "<group>"; };
+		CE4FDD6318E6108400379523 /* p181 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = p181; path = /Users/user/Documents/SampleCoding/p181/build/Debug/p181; sourceTree = "<absolute>"; };
+		CE4FDD6618E6108400379523 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = p181/main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,26 +41,8 @@
 		CE4FDD5A18E6108400379523 = {
 			isa = PBXGroup;
 			children = (
-				CE4FDD6518E6108400379523 /* p181 */,
-				CE4FDD6418E6108400379523 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		CE4FDD6418E6108400379523 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE4FDD6318E6108400379523 /* p181 */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CE4FDD6518E6108400379523 /* p181 */ = {
-			isa = PBXGroup;
-			children = (
 				CE4FDD6618E6108400379523 /* main.c */,
-				CE4FDD6818E6108400379523 /* p181.1 */,
 			);
-			path = p181;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +82,7 @@
 				en,
 			);
 			mainGroup = CE4FDD5A18E6108400379523;
-			productRefGroup = CE4FDD6418E6108400379523 /* Products */;
+			productRefGroup = CE4FDD5A18E6108400379523;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -227,6 +206,7 @@
 				CE4FDD6E18E6108400379523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

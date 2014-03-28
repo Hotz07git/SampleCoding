@@ -1,18 +1,12 @@
-//
-//  main.c
-//  p181
-//
-//  Created by Yuto Horiuchi on 2014/03/29.
-//  Copyright (c) 2014年 Yuto Horiuchi. All rights reserved.
-//
-
 #include <stdio.h>
-
-int main(int argc, const char * argv[])
+int main(void)
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
+    int x,y;
+    for (x = 1; x <= 9; x++) {
+        for (y = 1; y <= 9; y++) {
+            printf("%2d", x*y);
+        }
+    printf("\n");
+    }
     return 0;
 }
-
