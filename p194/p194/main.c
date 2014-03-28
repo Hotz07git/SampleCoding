@@ -1,18 +1,15 @@
-//
-//  main.c
-//  p194
-//
-//  Created by Yuto Horiuchi on 2014/03/29.
-//  Copyright (c) 2014年 Yuto Horiuchi. All rights reserved.
-//
-
 #include <stdio.h>
 
-int main(int argc, const char * argv[])
+int main(void)
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
+    int score = 0;
+    
+    do{
+        if (score != 0)
+        printf("点数は0~100の間の値を入力してください\n");
+        printf("点数を入力してください\n");
+        scanf("%d", &score);
+    }while (score <0||score>100);
+    printf("入力された点数%d\n",score);
     return 0;
 }
-
