@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE4FDE0C18E6611200379523 /* p223 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = p223; path = /Users/user/Documents/SampleCoding/p223/build/Debug/p223; sourceTree = "<absolute>"; };
 		CE4FDE0F18E6611200379523 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = p223/main.c; sourceTree = "<group>"; };
+		CEA5E13818E6B305002B0BCE /* p223 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = p223; path = /Users/user/Documents/SampleCoding/p223/build/Debug/p223; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			);
 			name = p223;
 			productName = p223;
-			productReference = CE4FDE0C18E6611200379523 /* p223 */;
+			productReference = CEA5E13818E6B305002B0BCE /* p223 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -206,6 +206,7 @@
 				CE4FDE1718E6611200379523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

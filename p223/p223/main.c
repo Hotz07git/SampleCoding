@@ -1,18 +1,18 @@
-//
-//  main.c
-//  p223
-//
-//  Created by Yuto Horiuchi on 2014/03/29.
-//  Copyright (c) 2014年 Yuto Horiuchi. All rights reserved.
-//
-
 #include <stdio.h>
-
-int main(int argc, const char * argv[])
+int main(void)
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
+    int value1 = 10;
+    int value2 = 20;
+    printf("1:value1 %d\n",value1);
+    printf("1:value2 %d\n",value2);
+    {
+        int value1;
+        value1 = 30;
+        value2 = 40;
+        printf("2:value1 %d\n",value1);
+        printf("2:value2 %d\n",value2);
+    }
+    printf("3:value1 %d\n",value1);
+    printf("3:value2 %d\n",value2);
     return 0;
 }
-
