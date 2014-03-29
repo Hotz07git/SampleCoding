@@ -1,18 +1,10 @@
-//
-//  main.c
-//  p240
-//
-//  Created by Yuto Horiuchi on 2014/03/29.
-//  Copyright (c) 2014年 Yuto Horiuchi. All rights reserved.
-//
-
 #include <stdio.h>
-
-int main(int argc, const char * argv[])
+int main(void)
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
+    int array[] = {1,2,4,5,6};
+    int i;
+    for (i = 0; i < 5; i++) {
+        printf("array[%d] = %d\n",i,array[i]);
+    }
     return 0;
 }
-
